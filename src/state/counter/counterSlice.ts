@@ -1,5 +1,4 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { act } from "react-dom/test-utils";
 
 interface CounterState {
     value: number;
